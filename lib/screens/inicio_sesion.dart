@@ -30,15 +30,13 @@ class _LoginScreenState extends State<LoginScreen> {
   void _login() {
     final user = _userController.text.trim();
     final pass = _passController.text;
-    // Aquí va tu lógica de autenticación
+
     debugPrint(
       'Login -> usuario: $user, contraseña: ${pass.length} caracteres',
     );
   }
 
-  void _forgot() {
-    // Aquí va la navegación a recuperación de usuario o contraseña
-  }
+  void _forgot() {}
 
   @override
   Widget build(BuildContext context) {

@@ -1,4 +1,5 @@
-import 'package:eduwork/screens/inicio_sesion.dart';
+//import 'package:eduwork/screens/inicio_sesion.dart';
+import 'package:eduwork/screens/lista_tareas.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Proyecto 1',
-      home: LoginScreen(),
+      home: ListaTareasScreen(),
     );
   }
 }
